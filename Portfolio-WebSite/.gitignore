@@ -1,0 +1,19 @@
+# System files (macOS & Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Build/output directories
+dist/
+build/
+
+# Environment variables 
+.env
