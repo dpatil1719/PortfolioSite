@@ -410,3 +410,47 @@ main{
     height: 220px;
   }
 }
+
+/* ===== Contact page polish (card grid + responsive) ===== */
+.contact-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+  width: 100%;
+  max-width: 980px;
+}
+
+.contact-card{
+  display: block;
+  padding: 18px 18px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: inherit;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.contact-card h3{
+  margin: 0 0 6px 0;
+}
+
+.contact-card p{
+  margin: 0;
+  opacity: 0.85;
+}
+
+.contact-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 38px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 900px){
+  .contact-grid{ grid-template-columns: repeat(2, minmax(220px, 1fr)); }
+}
+
+@media (max-width: 560px){
+  .contact-grid{ grid-template-columns: 1fr; }
+}
