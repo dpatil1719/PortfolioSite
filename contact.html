@@ -1,81 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title> My Individual Project</title>
-      <link rel="icon" type="image/png" href="../img/TitleLogo.png">
-      <link rel="stylesheet" type="text/CSS" href="../CSS/style.production.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    </head>
-  <body class="mainbody">
-  <header class="page-header">
-      <img class="page-header__item" src="../img/logoimage.png" alt="My Logo Image">
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-         
-            <li role="presentation"><a href="index.html" class="navigation-list__item navigation-list__item--active">Home</a></li>
-            <li role="presentation"><a href="about.html" class="navigation-list__item">About</a></li>
-            <li role="presentation"><a href="contact.html" class="navigation-list__item">Contact</a></li>
-            <li role="presentation"><a href="work.html" class="navigation-list__item">Work</a></li>          
-          </ul> 
-      </nav> 
-     
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Dhanashree Patil</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <div class="logo">
+      <img src="img/TitleLogo.png" alt="Logo">
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
 </header>
 
-<main>
-    <h1>Contact</h1>
+<main class="hero">
+  <div class="hero-content center">
+    <h1>Let’s <span>Connect</span></h1>
 
-    <div>
-        <h3>Dhanashree Patil</h3>
-        <p>c/o Lions Club </p>
-        <p>Santa Clara County</p>
-        <p>12435 California</p>
-        <p>United States</p>
-        <br>
-      <a href="tel:+49 30 4849 2016">Tel: +49 30 4849 2016</a>
-        <br>
-    <a  href="mailto:patildhanashree8@gmail.com">Email: patildhanashree8@gmail.com</a>
+    <p class="subtitle">
+      I’m always open to discussing new opportunities, collaborations,
+      or entry-level frontend and full-stack roles.
+    </p>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:patildhanashree888@gmail.com">
+        <h3>Email</h3>
+        <p>Email me</p>
+      </a>
+
+      <a class="contact-card" href="https://www.linkedin.com/in/dhanashree-p/" target="_blank">
+        <h3>LinkedIn</h3>
+        <p>Connect professionally</p>
+      </a>
+
+      <a class="contact-card" href="https://github.com/dpatil1719" target="_blank">
+        <h3>GitHub</h3>
+        <p>View my projects</p>
+      </a>
     </div>
+  </div>
+</main>
 
-    <h3> Contact Form</h3>
-    <form action="" method="post">
-      <label for="my_email">Email: </label>
-      <input id="my_email" type="email" required>
-    
-
-      <label for="my_telephone">Telephone: </label>
-      <input id="my_telephone" type="tel" required pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-      <label for="my_message">Message: </label>
-      <textarea id="my_message" maxlength="240" required> </textarea>
-      <br /><br />
-
-      <button type="submit"> Submit</button>
-    </form>
-
-   </main>
-   
-
-<footer class="page-footer">
-    <h5>Find me on:</h5>
-    <div class="social-media">
-    <a href="https://github.com/">
-      <img src="../img/github-128.webp" heigth="40" width="40" alt="Github"/>
-      </a>
-      <a href="https://x.com/">
-      <img src="../img/Rounded_Twitter5_svg-256.webp" heigth="40" width="40" alt="Twitter"/>
-      </a>
-      <a href="https://linkedin.com/">
-      <img src="../img/Rounded_Linkedin2_svg-256.webp" heigth="40" width="40" alt="LinkedIn"/>
-      </a>
-      </div>
-  </footer>
-    </body>
-    
-    <script src="../js/tota11y.min.js"></script>
-  </html>
-    
+</body>
+</html>

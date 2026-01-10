@@ -1,105 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title> My Individual Project</title>
-      <link rel="icon" type="image/png" href="../img/Title Logo.png">
-      <link rel="stylesheet" type="text/CSS" href="../CSS/style.production.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    </head>
-  <body class="mainbody">
-  <header class="page-header">
-      <img class="page-header__item" src="../img/logoimage.png" alt="My Logo Image">
-      <nav class="main-navigation page-header__item">
-        <ul role="menubar" class="navigation-list">
-         
-            <li role="presentation"><a href="index.html" class="navigation-list__item navigation-list__item--active">Home</a></li>
-            <li role="presentation"><a href="about.html" class="navigation-list__item">About</a></li>
-            <li role="presentation"><a href="contact.html" class="navigation-list__item">Contact</a></li>
-            <li role="presentation"><a href="work.html" class="navigation-list__item">Work</a></li>   
-        </ul> 
-      </nav> 
-     
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Work | Dhanashree Patil</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar">
+    <div class="logo">
+      <img src="img/TitleLogo.png" alt="Logo">
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 </header>
 
-<section>
-    <h2>Work</h2>
-    <div class="grid">
-       <!-- Grid items will live here -->
-       <div class="grid__item">
-        <h3>Mobile web app</h3>
-        <p>
-           Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-        </p>
-        <a href="#">See project on GitHub</a>
-        </div>
+<main>
+  <h2 style="max-width:1100px;margin:30px auto 0;padding:0 18px;">My Work</h2>
 
-        <div class="grid__item">
-            <h3>Native MacOS Application</h3>
-        <p>
-           Within this project, I was responsible for the frontend. It’s written in JavaFX.
-        </p>
-        <a href="#">See project on GitHub</a>
-        </div>
-
-        <div class="grid__item">
-            <h3>Node.js PDF generation</h3>
-        <p>
-            Within this project I created a service that generates paf out of webpages with the
-            help of a node.js server.
-        </p>
-        <a href="#">See project on GitHub</a>
-        </div>
-
-        <div class="grid__item">
-            <h3>Styleguide for 
-                portfolio
-            page</h3>
-        <p>
-            Here you can find the styleguide I've created for this portfolio page. It was created with the livingstyleguide gem and
-            grunt.
-        </p>
-        <a href="#">See project on GitHub</a>
-        </div>
-
-        <div class="grid__item">
-            <h3>Medium Blog</h3>
-        <p>
-            I am also writing on medium.com about React.js
-        </p>
-        <a href="#">See project on GitHub</a>
-        </div>
-       
-        <div class="grid__item">
-            <h3>My Project</h3>
-        <p>
-            I can help in realizing front-end and back- end projects with the following technologies: React.js, JavaScript, Java, JavaX, HTML and CSS. I am also happy to
-            learn other technologies if needed.
-        </p>
-        <a href="#">Contact Me</a>
-        </div>
-    
+  <!-- myFlix -->
+  <section class="project-card">
+    <div class="project-image">
+      <img src="img/myflix-movies-grid.png" alt="myFlix movie app screenshot">
     </div>
- </section>
-
- <footer class="page-footer">
-  <h5>Find me on:</h5>
-  <div class="social-media">
-  <a href="https://github.com/">
-    <img src="../img/github-128.webp" heigth="40" width="40" alt="Github"/>
-    </a>
-    <a href="https://x.com/">
-    <img src="../img/Rounded_Twitter5_svg-256.webp" heigth="40" width="40" alt="Twitter"/>
-    </a>
-    <a href="https://linkedin.com/">
-    <img src="../img/Rounded_Linkedin2_svg-256.webp" heigth="40" width="40" alt="LinkedIn"/>
-    </a>
+    <div class="project-content">
+      <h3>myFlix — Full-Stack Movie Application</h3>
+      <p>
+        A full-stack web application that allows users to browse movies, manage profiles,
+        and curate a list of favorite films using a RESTful API.
+      </p>
+      <p><strong>Tech Stack:</strong> React, Angular, Node.js, Express, MongoDB, JWT</p>
+      <div class="project-links">
+        <a href="https://github.com/dpatil1719/Movie-API" target="_blank">Backend</a> |
+        <a href="https://github.com/dpatil1719/myflix-client" target="_blank">React</a> |
+        <a href="https://github.com/dpatil1719/myFlix-Angular-client" target="_blank">Angular</a>
+      </div>
     </div>
-</footer>
+  </section>
+
+  <!-- Pokédex -->
+  <section class="project-card">
+    <div class="project-image">
+      <img src="img/pokedex-app.png" alt="Pokédex app screenshot">
+    </div>
+    <div class="project-content">
+      <h3>Pokédex App</h3>
+      <p>
+        A simple web application that fetches Pokémon data from a public API
+        and displays a searchable list of Pokémon.
+      </p>
+      <p><strong>Tech Stack:</strong> JavaScript, HTML, CSS, Fetch API</p>
+      <div class="project-links">
+        <a href="https://github.com/dpatil1719/simple-js-app" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet App -->
+  <section class="project-card">
+    <div class="project-image">
+      <img src="img/meet-app.png" alt="Meet App screenshot">
+    </div>
+    <div class="project-content">
+      <h3>Meet App</h3>
+      <p>
+        A serverless progressive web app that allows users to search for
+        upcoming events by city with offline access and data visualization.
+      </p>
+      <p><strong>Tech Stack:</strong> React, AWS Lambda, Google Calendar API, OAuth2</p>
+      <div class="project-links">
+        <a href="https://github.com/dpatil1719/meet-app" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chat App (Video) -->
+  <section class="project-card">
+    <div class="project-image">
+      <video src="img/chat-app.mp4" autoplay muted loop controls playsinline></video>
+    </div>
+    <div class="project-content">
+      <h3>Chat App</h3>
+      <p>
+        A real-time chat application that enables users to send and receive
+        messages instantly through a simple and responsive interface.
+      </p>
+      <p><strong>Tech Stack:</strong> JavaScript, HTML, CSS</p>
+      <div class="project-links">
+        <a href="https://github.com/dpatil1719/chat-app" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
 </body>
-<script src="../js/tota11y.min.js"></script>
 </html>
