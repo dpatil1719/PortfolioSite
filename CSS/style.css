@@ -365,3 +365,67 @@ body {
   }
 }
 
+
+/* =========================
+   Premium Visual Polish
+========================= */
+
+/* Softer background depth */
+body {
+  background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 40%);
+}
+
+/* Headline emphasis */
+.hero h1 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+/* Button polish */
+.btn.primary {
+  background: #111;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.btn.primary:hover {
+  background: #1e4fd8;
+  box-shadow: 0 6px 18px rgba(30,79,216,0.25);
+  transform: translateY(-2px);
+}
+
+.btn.secondary:hover {
+  transform: translateY(-2px);
+}
+
+/* Image subtle glow */
+.hero-image img {
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Subtle fade-in animation */
+.hero-text {
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.hero-image {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
